@@ -1,0 +1,52 @@
+.block{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap : 15px;
+    flex-direction: column;
+    margin-top: 120px;
+}
+
+.input{
+    padding:10px 40px 10px 10px;
+    border-radius: 10px;
+    border: 2px solid darkblue;
+}
+.block2 form{
+    display: flex;
+    gap:10px;
+}
+
+.block2 button{
+    padding: 5px 20px;
+    border-radius: 30px;
+    border: 2px solid hotpink;
+    background: white;
+    color: darkorchid;
+}
+.block h2{
+    color: white;
+}
+
+ul{
+    color: black;
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    gap: 5px;
+}
+li{
+    list-style: none ;
+    background: lightpink;
+    border-radius: 10px;
+    padding: 5px;
+
+}
+body{
+    background-image: url("../image/flagKG.jpeg");
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+
+}
